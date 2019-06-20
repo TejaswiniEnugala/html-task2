@@ -54,6 +54,7 @@ html {
    margin-top: 10px;
    text-align: center;
    padding-left: 135px;
+   font-family: 'Dancing Script', cursive;
   }
 
  .nav li{
@@ -75,7 +76,9 @@ html {
 .item3 { grid-area: specifications; }
 .item4 { grid-area: right; }
 .item5 { grid-area: bottomleft; }
-.item6 { grid-area: bottomright; }
+.item6 { grid-area: bottomright1; }
+.item7{ grid-area: bottomright2; }
+.item8 { grid-area: bottomright3; }
 
 
 
@@ -84,7 +87,9 @@ html {
   grid-template-areas:
     'header header header header header header'
     'models specifications specifications specifications right right'
-    'bottomleft bottomleft bottomleft bottomright bottomright bottomright';
+    'bottomleft bottomleft bottomleft bottomright1 bottomright1 bottomright1'
+    'bottomleft bottomleft bottomleft bottomright2 bottomright2 bottomright2'
+    'bottomleft bottomleft bottomleft bottomright3 bottomright3 bottomright3';
   grid-gap: 10px;
   padding: 100px 10px 10px 10px;
 }
@@ -99,11 +104,10 @@ text-decoration: none;
   }
 
 .grid-container div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-  height:300px;
+  
 }
 .item2{
   width:100%;
@@ -118,9 +122,34 @@ text-decoration: none;
   max-width: 100%;
   margin-right: 5cm;
 }
-.item6 img{
-  height:50%;
-  width:50%;
+.item5 img{
+  height:100%;
+  width: 100%;
+  
+}
+.item6 {
+  
+  font-size: 12;
+  text-align: left;
+  margin-left: 2px;
+  background-color:rgb(211, 211, 125);
+  
+  margin-top: 70px;
+  
+  
+}
+.item7{
+  
+  margin-left: 2px;
+  background-color:rgb(211, 211, 125);
+  
+  
+}
+.item8{
+  
+  text-align: left;
+  margin-left: 2px;
+  background-color: rgb(211, 211, 125);
   
 }
 footer{
